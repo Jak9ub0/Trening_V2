@@ -1,4 +1,4 @@
-package opeartory;
+package zadania;
 
 import java.util.Scanner;
 //Napisac program ktory sprawdzi czy wczytana liczba jest parzysta bądź nie.

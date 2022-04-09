@@ -1,4 +1,4 @@
-package opeartory;
+package zadania;
 
 import java.util.Scanner;
 /*
