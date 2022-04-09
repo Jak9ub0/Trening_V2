@@ -19,6 +19,10 @@ public class ZadanieKino {
         byte numberOfChildren = scanner.nextByte();
         boolean canGoToCinema = (cash >= 20.0f) || hasPremiumCard || (numberOfChildren >= 3);
         System.out.println("Opdowiedź systemu: ");
-        System.out.println(canGoToCinema);
+        if(canGoToCinema) {
+            System.out.println("Mozesz wejsc do kina");
+        } else {
+            System.out.println("Nie mozesz wejsc do kina");
+        }
     }
 }

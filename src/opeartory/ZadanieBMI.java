@@ -18,5 +18,13 @@ public class ZadanieBMI {
         float bmi = weight/(height*height);
         System.out.print("Twoje BMI to: ");
         System.out.println(bmi);
+
+        if (bmi > 18.5F && bmi < 24.9F) {
+            System.out.println("Waga prawidłowa");
+        } else if (bmi >= 24.9F) {
+            System.out.println("Nadwaga");
+        } else {
+            System.out.println("Niedowaga");
+        }
     }
 }
