@@ -11,7 +11,7 @@ public class PetlaForExample {
         }
 //        System.out.println(i);
 //
-//        String[] tablica = {"Ala", "Ma", "Kota"};
+//        int[] tablica = {"Ala", "Adam", "Tomek"};
 //
 //        for (String temp : tablica) {
 //            System.out.print(temp + " " +i );
