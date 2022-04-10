@@ -1,6 +1,7 @@
 package zadania;
 
 import java.util.Scanner;
+
 /*
 Napisz program, który wyświetli linię długości wskazanej przez użytkownika, np.
 2->##
@@ -13,8 +14,14 @@ public class ZadaniePlotek {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj długość: ");
         int length = scanner.nextInt();
-        for (int i=0;i<length;i++) {
+        for (int i = 0; i < length; i++) {
             System.out.print("#");
+        }
+        /////////// while////////////
+        int j = 0;
+        while (j < length) {
+            System.out.print("#");
+            j++;
         }
     }
 }
