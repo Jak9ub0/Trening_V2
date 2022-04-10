@@ -6,7 +6,7 @@ public class ZadanieKalkulator {
 
     public static void main(String[] args) {
 
-        boolean czyKontynuowac;
+        String czyKontynuowac;
         do {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Podaj operacje");
@@ -35,7 +35,7 @@ public class ZadanieKalkulator {
             }
             System.out.println("Wynik to: " + wynik);
             System.out.println("czy kontynuowac? ");
-            czyKontynuowac = scanner.nextBoolean();
-        } while (czyKontynuowac);
+            czyKontynuowac = scanner.next();
+        } while (czyKontynuowac.equals("tak"));
     }
 }
