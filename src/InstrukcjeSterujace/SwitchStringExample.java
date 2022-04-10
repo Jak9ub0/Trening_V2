@@ -7,7 +7,9 @@ public class SwitchStringExample {
         System.out.println("podaj miasto a podamy wojewodztwo");
         Scanner scanner = new Scanner(System.in);
         String miasto = scanner.next();
+
         switch (miasto){
+            case "siedlce":
             case "warszawa": System.out.println("Mazowieckie");
             break;
             case "czestochowa": System.out.println("slaskie");
