@@ -1,7 +1,13 @@
 package zadania;
 
 import java.util.Scanner;
-
+/*
+zmodyfikujcie zadanie z
+kalkulatorem aby przy uzyciu
+instrukcji break po wprowadzeniu
+nieprawidlowej operacji wychodzil
+z petli
+ */
 public class ZadanieKalkulator {
 
     public static void main(String[] args) {
@@ -11,6 +17,10 @@ public class ZadanieKalkulator {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Podaj operacje");
             String operacja = scanner.next();
+            if(!(operacja.equals("+")||operacja.equals("-")||operacja.equals("/")||operacja.equals("*"))){
+                System.out.println("uzyles niedozwolonej operacji");
+                break;
+            }
             System.out.println("Podaj liczby");
             double liczba1 = scanner.nextDouble();
             double liczba2 = scanner.nextDouble();

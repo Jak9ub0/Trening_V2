@@ -9,6 +9,11 @@ Dane testowe:
 2->4
 3->9
 4->16
+zadanie drugie : zmodyfikujcie zadanie
+z obliczaniem kwadratow liczb mniejszej
+od wskazanej z pominieciem nieparzystych
+liczb przy uzyciu continue
+
  */
 public class ZadaniePotegi {
     public static void main(String[] args) {
@@ -17,21 +22,11 @@ public class ZadaniePotegi {
         int number = scanner.nextInt();//50
 
         for (int i=1;i<=number;i++) {
-//            int pow = i*i;
+            if(i%2!=0){
+                continue;
+            }
             double pow = Math.pow(i,2);
-//            double pow = i^2;
-            System.out.println(pow);
+            System.out.println(i + "->" + pow);
         }
-
-
-//        //alternatywnie:
-//        for (int i=1;;i++){
-//            int pow = i * i;
-//            if (pow <= number){
-//                System.out.println(pow);
-//            } else {
-//                break;
-//            }
-//        }
     }
 }
