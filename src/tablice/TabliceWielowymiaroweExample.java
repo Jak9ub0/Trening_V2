@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TabliceWielowymiaroweExample {
 
     public static void main(String[] args) {
-        int[][] tab = new int[3][4];
+        int[][] tab = new int[4][2];
 
         Scanner scanner = new Scanner(System.in);
 
