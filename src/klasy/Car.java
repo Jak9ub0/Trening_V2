@@ -1,33 +1,30 @@
 package klasy;
 
 public class Car {
-     String color;
-     int maxSpeed;
-     String brand;
+    protected String color;
+    private int maxSpeed;
+    private String brand;
 
-    public Car() {
+    public String getColor() {
+        return color;
     }
-
-    public Car(String color, int maxSpeed, String brand) {
-        this.color = color;
-        this.maxSpeed = maxSpeed;
-        this.brand = brand;
-    }
-
-    public Car(int maxSpeed, String color,  String brand) {
-        this.color = color;
-        this.maxSpeed = maxSpeed;
-        this.brand = brand;
-    }
-
-
 
     public void setColor(String color) {
         this.color = color;
     }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
+
+    public String getBrand() {
+        return brand;
+    }
+
     public void setBrand(String brand) {
         this.brand = brand;
     }
