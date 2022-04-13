@@ -2,8 +2,13 @@ package klasy;
 
 import java.util.Scanner;
 
+import static klasy.Ciasto.metodaStatyczna;
+
 public class CiastoMain {
     public static void main(String[] args) {
+
+        metodaStatyczna();
+
         Scanner scanner = new Scanner(System.in);
         Ciasto ciasto = new Ciasto();
 

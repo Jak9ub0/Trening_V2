@@ -7,6 +7,7 @@ public class Ciasto {
     private int woda;
     private int wagaCiasta;
 
+
     public void setMaka(int maka) {
         wagaCiasta = wagaCiasta +maka;
         this.maka = maka;
@@ -24,6 +25,8 @@ public class Ciasto {
         this.woda = woda;
     }
 
+    public static void metodaStatyczna(){
+    }
 
     public void ileWazyCiasto(){
         System.out.println(wagaCiasta);
