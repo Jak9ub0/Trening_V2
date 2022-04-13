@@ -1,6 +1,7 @@
 package klasy;
 
 public class Car {
+
     protected String color;
     private int maxSpeed;
     private String brand;
