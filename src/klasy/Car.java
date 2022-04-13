@@ -8,6 +8,17 @@ public class Car {
     private int productionYear;
     private int zezlomowanieYear;
 
+    public Car() {
+    }
+
+    public Car(String color, int maxSpeed, String brand, int productionYear, int zezlomowanieYear) {
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+        this.brand = brand;
+        this.productionYear = productionYear;
+        this.zezlomowanieYear = zezlomowanieYear;
+    }
+
     public String getColor() {
         return color;
     }
@@ -61,9 +72,18 @@ public class Car {
         if(this.maxSpeed> maxSpeed){
             System.out.println("Samochod osiaga niedopuszczalna predkosc");
         }
+        print("fwefwefwefwe");
     }
 
     public int getAgeAtZlomowanie(){
+
+        print("kmkmkm");
         return zezlomowanieYear - productionYear;
     }
+    public void print(String napis){
+        System.out.println(napis);
+        System.out.println(napis);
+        System.out.println(napis);
+    }
+
 }
