@@ -12,6 +12,6 @@ public class CarDealer {
     }
 
     public void printCarsAmount(){
-        System.out.println("Cars amount: "+ cars);
+        System.out.println("Cars amount: "+ cars.length);
     }
 }
