@@ -2,6 +2,8 @@ package klasy;
 
 public class Uczen {
 
+    public static final String SZKOLA = "Liceum nr 1";
+
     private String imie;
     private String nazwisko;
     private int klasa;
@@ -20,4 +22,7 @@ public class Uczen {
         this.imie = imie;
     }
 
+    public static void printSzkola(){
+        System.out.println(SZKOLA);
+    }
 }
