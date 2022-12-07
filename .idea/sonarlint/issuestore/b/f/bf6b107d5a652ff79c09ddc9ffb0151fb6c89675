@@ -1,0 +1,16 @@
+
+ú
+java:S1186"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˛‘ø°˛ˇˇˇˇ
+k
+java:S1450"URemove the "cukier" field and declare it as a local variable in the relevant methods.(ŒÕèù
+n
+java:S1450"SRemove the "maka" field and declare it as a local variable in the relevant methods.(˚®…ø˚ˇˇˇˇ
+i
+java:S1450"SRemove the "woda" field and declare it as a local variable in the relevant methods.(£°ê¥
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÂÖå–¯ˇˇˇˇ
+C
+java:S1068"(Remove this unused "maka" private field.(˚®…ø˚ˇˇˇˇ
+@
+java:S1068"*Remove this unused "cukier" private field.(ŒÕèù
+>
+java:S1068"(Remove this unused "woda" private field.(£°ê¥

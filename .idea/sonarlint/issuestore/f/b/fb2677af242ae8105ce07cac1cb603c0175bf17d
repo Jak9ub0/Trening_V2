@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ££²øÿÿÿÿ
+Q
+java:S1854";Remove this useless assignment to local variable "pattern".(´…Ş
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(—ÎÆ
+B
+java:S1481",Remove this unused "pattern" local variable.(´…Ş
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÃŸÿÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã

@@ -1,0 +1,20 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¿×ú+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å©±êüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(”“î€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÃØüØşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù£ğÕøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾ûàµúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±ÑÊ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‹–ÃÙ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(üÁ¹ñøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‘ÜÅØûÿÿÿÿ
+c
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(‘ÜÅØûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëÚëúÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(××»Åÿÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(¦‰€’
+N	java:S106""9Replace this use of System.out or System.err by a logger.(à°¢Ô
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Æ€õø
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Æ€õø
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ

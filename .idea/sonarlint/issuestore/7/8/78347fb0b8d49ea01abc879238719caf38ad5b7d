@@ -1,0 +1,8 @@
+
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(¥à•³
+@
+java:S1068"*Remove this unused "rodzaj" private field.(ÁÔé‚
+=
+java:S1068"'Remove this unused "nip" private field.(Ó¼×æ
+I
+java:S1068".Remove this unused "stanowisko" private field.(ûÓª±øÿÿÿÿ
